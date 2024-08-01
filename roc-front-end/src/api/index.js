@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   // baseURL: "http://localhost:4000/api",
-  baseURL: "https://okane-app-backend.onrender.com/api",
+  baseURL: "https://realty-on-chain-backend.onrender.com/api",
 });
 
 const ResponseInterceptor = (response) => {
