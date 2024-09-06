@@ -25,7 +25,7 @@ const image2URL3 =
   "https://static.propsearch.ae/dubai-locations/burj-binghatti_xl356_xl.jpg";
 
 const imageURL3 =
-  "https://www.binghatti.com/wp-content/uploads/2022/09/mbr-mbl-Banner.png";
+  "https://i.1.creatium.io/7b/fe/6f/413cb486f133d9f5f4c3f30e62458403d2/1161x832q5/header.jpg";
 
 const image3URL2 =
   "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/515525284.webp?k=50fb899e8e1b948371a96cafd65fa2b941a7f66bce9bf41a9494b83c5b0ef74a&o=";
