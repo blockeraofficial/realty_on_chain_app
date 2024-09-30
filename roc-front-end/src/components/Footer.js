@@ -14,7 +14,7 @@ const SOCIAL_LINKS = [
   {
     id: 1,
     name: "Twitter",
-    src: "https://x.com/blockera_online",
+    src: "https://x.com/roc_platform",
     icon: () => <Twitter height={16} width={16} />,
   },
   {
@@ -38,13 +38,13 @@ const SOCIAL_LINKS = [
   {
     id: 5,
     name: "Instagram",
-    src: "https://www.instagram.com",
+    src: "https://www.instagram.com/blockera_online/",
     icon: () => <Instagram height={20} width={20} />,
   },
   {
     id: 6,
     name: "Medium",
-    src: "https://medium.com/@realtyonchain",
+    src: "https://medium.com/@blockera_online",
     icon: () => <Medium height={23} width={23} />,
   },
   {

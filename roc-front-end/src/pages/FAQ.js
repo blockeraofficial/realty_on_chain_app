@@ -5,21 +5,21 @@ import { useState } from "react";
 const GENERAL_TAGS = [
   {
     id: 1,
-    name: "How to buy an asset",
+    name: "Tokenization Article",
     SVG: () => <BuyHomeTag width={60} height = {60} />,
-    tag: "https://medium.com/@realtyonchain/how-to-buy-an-asset-3a4ecc855d0b"
+    tag: "https://medium.com/@blockera_online/tokenization-revolutionizing-real-world-assets-4fe54ec0b275"
   },
   {
     id: 2,
-    name: "How to buy $ROC token",
+    name: "ROC Whitepaper V1",
     SVG: () => <BuyRocToken width={65} height = {65} />,
-    tag: "https://medium.com/@realtyonchain/how-to-buy-roc-tokens-4194041d2bbf"
+    tag: "https://blockera.gitbook.io/roc"
   },
   {
     id: 3,
-    name: "How staking works",
+    name: "Company Structure",
     SVG: () => <Staking width={60} height = {60} />,
-    tag: "https://medium.com/@realtyonchain/how-staking-works-274c42a8c145"
+    tag: "https://medium.com/@blockera_online/blockera-using-creative-solutions-to-drive-the-web3-revolution-0d6bf8b2b282"
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const GENERAL_TAGS = [
     id: 5,
     name: "Watch demo video",
     SVG: () => <WatchDemoVideo width={60} height = {60} />,
-    tag: "https://www.rocplatform.online"
+    tag: "https://www.youtube.com/@blockera_online"
   },
   {
     id: 6,
