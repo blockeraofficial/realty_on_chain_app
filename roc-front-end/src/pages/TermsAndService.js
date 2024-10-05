@@ -89,7 +89,7 @@ const termsOfService = [
     id: 14,
     title: "14. Contact Us",
     content:
-      'If you have any questions about these Terms, please contact us at "admin@wakaru.io"',
+      'If you have any questions about these Terms, please contact us at "info@blockera.online"',
   },
 ];
 
