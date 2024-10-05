@@ -23,12 +23,14 @@ const SOCIAL_LINKS = [
     src: "https://web.telegram.org/k/#@realtyonchain",
     icon: () => <Telegram height={20} width={20} />,
   },
-  {
-    id: 3,
-    name: "Linkedin",
-    src: "https://www.linkedin.com",
-    icon: () => <Linkedin height={16} width={24} />,
-  },
+  // 
+  // {
+  //  id: 3,
+  //  name: "Linkedin",
+  //  src: "https://www.linkedin.com",
+  //  icon: () => <Linkedin height={16} width={24} />,
+  // },
+  //
   {
     id: 4,
     name: "Youtube",
@@ -50,7 +52,7 @@ const SOCIAL_LINKS = [
   {
     id: 7,
     name: "Tiktok",
-    src: "https://www.tiktok.com/@blockera_online",
+    src: "https://www.tiktok.com/@blockera.online",
     icon: () => <Tiktok height={18} width={20} />,
   },
 ];
