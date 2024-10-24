@@ -34,7 +34,7 @@ const SOCIAL_LINKS = [
   {
     id: 4,
     name: "Youtube",
-    src: "https://www.youtube.com/@blockera_online",
+    src: "https://www.youtube.com/@blockera_company",
     icon: () => <Youtube height={22} width={22} />,
   },
   {
