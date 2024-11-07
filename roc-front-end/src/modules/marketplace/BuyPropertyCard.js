@@ -28,7 +28,7 @@ const BuyPropertyCard = ({
               onChange={(e) => setPropertyToken(e.target.value)}
               type="number"
               className="w-full p-4 rounded-xl border-2 border-rocPurple-300 focus:outline-none focus:border-rocPurple-300 font-manrope text-rocPurple-300"
-              placeholder="TOTAL TO INVEST"
+              placeholder="REALTY TOKEN"
             />
           </div>
         </div>
@@ -62,8 +62,8 @@ const BuyPropertyCard = ({
             </>
           )}
         </div>
-        <div className="w-full border-2 border-rocPurple-800 rounded-full relative flex h-[80px]">
-          <div className="absolute -top-5 left-14 rounded-full flex space-x-2 items-center px-1 py-1 bg-rocWhite-900 text-rocPurple-800 ">
+        <div className="w-full border-2 border-rocPurple-800 rounded-full relative flex justify-center h-[80px]">
+          <div className="absolute -top-5 rounded-full flex space-x-2 items-center px-1 py-1 bg-rocWhite-900 text-rocPurple-800 ">
             <h6 className="text-lg font-bold whitespace-nowrap font-manrope">{`Approved Amount`}</h6>
           </div>
           <div className="px-4 flex justify-center items-center w-full">
@@ -72,15 +72,17 @@ const BuyPropertyCard = ({
             }`}</h6>
           </div>
         </div>
-        <div className="w-full border-2 border-rocPurple-800 rounded-full relative flex h-[80px]">
-          <div className="absolute -top-5 left-20 rounded-full flex space-x-2 items-center px-1 py-1 bg-rocWhite-900 text-rocPurple-800 ">
-            <h6 className="text-lg font-bold whitespace-nowrap font-manrope">{`TOKEN PRICE`}</h6>
+        <div className="w-full border-2 border-rocPurple-800 rounded-full relative flex justify-center h-[80px]">
+          <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 rounded-full flex space-x-2 items-center px-3 py-1 bg-rocWhite-900 text-rocPurple-800">
+            <h6 className="text-lg font-bold whitespace-nowrap font-manrope">{`Realty Token Price`}</h6>
           </div>
+          {/* 
           <div className="rounded-full bg-rocBlue-100 h-[76px] w-[75px] flex justify-center items-center">
             <img src={Tether} alt="tether" className="h-12" />
           </div>
-          <div className="px-4 flex justify-center items-center">
-            <h6 className="text-rocPurple-800 font-bold text-xl md:text-2xl">{`${10} USDT`}</h6>
+          */}
+          <div className="w-1/2 flex justify-center items-center">
+            <h6 className="text-rocGreen-800 font-bold text-xl whitespace-nowrap">{`USDT ${10}`}</h6>
           </div>
         </div>
       </div>
