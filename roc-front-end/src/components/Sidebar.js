@@ -9,7 +9,7 @@ import {
   Verification,
   Oracles,
   Partners,
-  LLC,
+  // LLC,
   FAQ,
   Cross,
 } from "assets/svgs/sidebar";
@@ -55,12 +55,12 @@ const LINKS1 = [
 ];
 
 const LINKS2 = [
-  {
-    id: 1,
-    title: "Model",
-    href: "/model",
-    SVG: () => <LLC />,
-  },
+  // {
+  //   id: 1,
+  //   title: "Model",
+  //   href: "/model",
+  //   SVG: () => <LLC />,
+  // },
   {
     id: 2,
     title: "FAQ",
