@@ -109,7 +109,7 @@ const DashboardPage = () => {
     >
       <div className="space-y-4 p-1 pb-10">
         <div className="flex justify-center md:justify-between items-center">
-          <Title className={"py-3"}>{`PORTFOLIO`}</Title>
+          <Title className={"py-3"}>{`DASHBOARD`}</Title>
           <div className="hidden md:flex border-2 border-rocBlue-100 rounded-full py-1 px-2 space-x-2  items-center justify-center bg-rocBlue-100 text-rocWhite-900">
             <Verified />
             <h6 className="text-sm font-manrope">VERIFIED</h6>

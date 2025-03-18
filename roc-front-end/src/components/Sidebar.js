@@ -24,7 +24,7 @@ const LINKS1 = [
   },
   {
     id: 2,
-    title: "Portfolio",
+    title: "Dashboard",
     href: "/dashboard",
     SVG: () => <Dashboard />,
   },
